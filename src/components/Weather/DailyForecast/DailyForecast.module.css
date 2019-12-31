@@ -1,0 +1,17 @@
+.container {
+  min-height: 240px;
+  width: auto;
+  overflow-x: auto;
+  overflow-y: hidden;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+@media (max-width: 499px) {
+  .container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,79 @@
+.dailyCard {
+  position: relative;
+  width: 190px;
+  height: 110px;
+  background-color: #fff;
+  margin: 3px;
+  padding-top: 10px;
+  border-bottom: 4px solid rgb(212, 171, 57);
+  border-radius: 4px;
+  flex: .1 0 auto;
+  animation: toSmallSize .2s;
+}
+
+.dailyCard:hover {
+  cursor: pointer;
+  border-top: 5px solid rgb(255, 136, 0);
+  border-bottom: 4px solid #fff;
+}
+
+.selectedDailyCard {
+  position: relative;
+  height: 160px;
+  background-color: #fff;
+  margin: 3px;
+  display: flex;
+  border-top: 5px solid rgb(255, 136, 0);
+  border-radius: 4px;
+  animation: toBigSize .2s;
+}
+
+@keyframes toBigSize {
+  0% {
+    transform: scale(0.7);
+    transform-origin: bottom left
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes toSmallSize {
+  0% {
+    transform: scale(1.3);
+    transform-origin: bottom left;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.weather {
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+  min-width: 190px;
+}
+
+.description {
+  border-left: solid 2px black;
+  padding: 5px;
+  margin: 10px;
+  text-align: center;
+}
+
+.descriptionNone {
+  display: none;
+}
+
+.minMax {
+  display: flex;
+  flex-direction: column;
+  padding-right: 20px;
+}
+
+.day,
+.minMax span {
+  display: block;
+  font-weight: 600;
+}

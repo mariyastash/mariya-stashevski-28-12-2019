@@ -1,0 +1,22 @@
+.container {
+  margin-top: 150px;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+/* .noFavoritePlaces{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+@media (max-width: 736px) {
+  .container {
+    margin-top: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}

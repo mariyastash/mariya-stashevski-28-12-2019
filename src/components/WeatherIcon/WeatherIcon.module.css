@@ -1,0 +1,13 @@
+.icon {
+  /* background-color: white; */
+  padding: 8px;
+  /* height: 100%; */
+  box-sizing: border-box;
+  /* border-radius: 5px; */
+  width: auto;
+  height: 70px;
+}
+
+.icon img {
+  height: 100%;
+}

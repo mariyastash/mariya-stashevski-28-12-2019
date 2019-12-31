@@ -1,0 +1,32 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,500);
+
+.linkTo {
+  font-weight: 300;
+  color: #fff;
+  font-size: 1.2em;
+  text-decoration: none;
+  border: 1px solid #efefef;
+  padding: .5em;
+  border-radius: 3px;
+  position: relative;
+  transition: all .3s linear;
+}
+
+.linkTo:hover {
+  background-color: #007bff4f;
+  color: #fff;
+}
+
+p {
+  font-size: 1em;
+  text-align: center;
+  font-weight: 100;
+  color: white
+}
+
+.head {
+  text-align: center;
+  font-size: 10em;
+  font-weight: 100;
+  color: #fff;
+}
