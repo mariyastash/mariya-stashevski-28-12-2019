@@ -18,7 +18,7 @@ const Location = ({ location, locationWeather, favorites, addToFavorite, revomeF
   return (
     <div className={classes.container}>
       <span className={classes.name}>{location.LocalizedName} </span>
-      <span className={classes.name}>{locationWeather.Temperature ? locationWeather.Temperature.Imperial.Value: ""} F°</span>
+      <span className={classes.name}>{locationWeather.Temperature ? `${locationWeather.Temperature.Imperial.Value} F°`: ""} </span>
       <button
         className={classes.addToFavoriteButton}
         onClick={() => handleAddRemovetoFavorites()}
